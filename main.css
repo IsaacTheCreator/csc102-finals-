@@ -1,0 +1,32 @@
+/* CSS for website style */
+
+/* Body Properties */
+body {
+    background-color: #f7f7f7; /* Set your preferred background color */
+    color: #000000; /* Set your preferred text color */
+}
+
+/* Navigation Properties */
+nav {
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+/* Footer Properties */
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+/* #memeImage Properties */
+#memeImage {
+    margin-right: 200px;
+}
+
+/* Header Properties */
+header {
+    text-align: center;
+}

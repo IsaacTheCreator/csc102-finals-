@@ -1,0 +1,43 @@
+/* CSS for User Information Form */
+body {
+    background-image: url('background.jpg'); /* Add your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent white */
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#secretMessage {
+    color: green;
+}
+
+.animated {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
